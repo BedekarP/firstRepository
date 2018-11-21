@@ -1,0 +1,44 @@
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~
+$ cd D:/Users/pallavi_bedekar/workspace/DevOps/GitDemo
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git config --global user.name "Pallavi Bedekar"
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$  git config --global user.email "pallavi_bedekar@persistent.com"
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git config user.name
+Pallavi Bedekar
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git config user.email
+pallavi_bedekar@persistent.com
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git config user.list
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git config list
+error: key does not contain a section: list
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.name=Pallavi Bedekar
+user.email=pallavi_bedekar@persistent.com
+
+pallavi_bedekar@PTJAVAELTP13 MINGW64 ~/workspace/DevOps/GitDemo
+$ git init
+Initialized empty Git repository in D:/Users/pallavi_bedekar/workspace/DevOps/GitDemo/.git/
+
